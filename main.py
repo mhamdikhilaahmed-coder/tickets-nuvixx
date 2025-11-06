@@ -1,16 +1,13 @@
-# ==========================================================
-# NUVIX SUITE RENDER EDITION - MAIN LAUNCHER
-# ----------------------------------------------------------
-# ✅ Runs ALL Nuvix bots from one window / Render service
-# ✅ Reads ONLY Render environment variables (NOT .env)
-# ✅ Requires: python 3.11+ and all bot folders with bot.py
-# ==========================================================
-import nuvix_patch
-import os
-import subprocess
-import time
+# ==================================================
+# Nuvix Suite Render Edition (Global Launcher)
+# Compatible con Python 3.13 y Render
+# ==================================================
 
-# List of all Nuvix bots and their expected environment variables (Render-side)
+import os, subprocess, time
+
+print("🚀 Starting Nuvix Suite Render Edition (patched launcher)")
+
+# Lista de bots y sus variables de entorno
 BOTS = [
     ("nuvix_ai", "NUVIX_AI_TOKEN"),
     ("nuvix_apps", "NUVIX_APPS_TOKEN"),
@@ -24,35 +21,39 @@ BOTS = [
     ("nuvix_tickets", "NUVIX_TICKETS_TOKEN"),
 ]
 
-print("🚀 Starting Nuvix Suite Render Edition (single launcher)\n")
 processes = []
 
 for folder, token_env in BOTS:
     token = os.environ.get(token_env)
     if not token:
-        print(f"⚠️ Skipping {folder} — missing Render environment variable: {token_env}")
+        print(f"⚠️ Skipping {folder} — missing token variable ({token_env})")
         continue
 
-    path = os.path.join(os.getcwd(), "bots", folder, "bot.py")
+    path = os.path.join(os.getcwd(), folder, "bot.py")
     if not os.path.exists(path):
-        # fallback if bots are in root folders
-        path = os.path.join(os.getcwd(), folder, "bot.py")
+        print(f"❌ Skipping {folder} — bot.py not found at {path}")
+        continue
 
     print(f"✅ Launching {folder} ...")
-    process = subprocess.Popen(["python", path])
-    processes.append(process)
-    time.sleep(1.5)
 
-print("\n✨ All available bots launched successfully.")
-print("💡 Press CTRL + C to stop all bots.\n")
+    # 🪄 Este comando inyecta el fix antes de importar discord
+    launch_cmd = [
+        "python",
+        "-c",
+        f"import sys; sys.modules['audioop']=None; exec(open(r'{path}').read())",
+    ]
+
+    p = subprocess.Popen(launch_cmd)
+    processes.append(p)
+    time.sleep(2)
+
+print("✨ All available bots launched successfully.")
+print("💡 Press CTRL + C to stop all bots.")
 
 try:
-    for process in processes:
-        process.wait()
+    while True:
+        time.sleep(60)
 except KeyboardInterrupt:
-    print("\n🛑 Stopping all bots...")
-    for process in processes:
-        process.terminate()
-    print("✅ All bots stopped cleanly.")
-
-
+    print("🛑 Stopping all bots...")
+    for p in processes:
+        p.terminate()
