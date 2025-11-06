@@ -1,0 +1,42 @@
+{"timestamp": "2025-11-02T21:23:28.253397", "data": {"user": "benyx1", "cmd": "panel", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T21:23:34.595951", "data": {"user": "benyx1", "cmd": "open_ticket:Purchases", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T21:23:40.091020", "data": {"user": "benyx1", "cmd": "open_ticket:Purchases", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T21:23:47.502969", "data": {"user": "benyx1", "cmd": "open_ticket:Replace", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T21:26:37.470655", "data": {"user": "benyx1", "cmd": "open_ticket:Replace", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T21:26:49.384431", "data": {"user": "benyx1", "cmd": "open_ticket:Support", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T21:40:01.551463", "data": {"user": "benyx1", "cmd": "open_ticket:Replace", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T21:49:59.930371", "data": {"user": "benyx1", "cmd": "panel", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T21:50:05.498257", "data": {"user": "benyx1", "cmd": "open_ticket:Replace", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:15:37.080072", "data": {"user": "benyx1", "cmd": "panel", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:15:40.418368", "data": {"user": "benyx1", "cmd": "open_ticket:Purchases", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:16:07.660089", "data": {"user": "benyx1", "cmd": "open_ticket:Product not received", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:16:36.924939", "data": {"user": "benyx1", "cmd": "warn", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:17:16.069232", "data": {"user": "benyx1", "cmd": "warn", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:17:34.612594", "data": {"user": "benyx1", "cmd": "warn", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:18:24.023321", "data": {"user": "benyx1", "cmd": "ban", "channel": 1434667421850931351}}
+{"timestamp": "2025-11-02T22:21:34.543736", "data": {"user": "benyx1", "cmd": "ban", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:22:38.315440", "data": {"user": "benyx1", "cmd": "transcript", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:23:20.415788", "data": {"user": "benyx1", "cmd": "open_ticket:Purchases", "channel": 1432829783602888775}}
+{"timestamp": "2025-11-02T22:51:33.148308", "data": {"user": "benyx1", "cmd": "panel", "channel": 1432829783602888775, "ts": "2025-11-02T22:51:33.147312"}}
+{"timestamp": "2025-11-02T22:51:40.163651", "data": {"user": "benyx1", "cmd": "ticket_open:purchases", "channel": 1432829783602888775, "ts": "2025-11-02T22:51:40.163232"}}
+{"timestamp": "2025-11-02T22:51:51.226576", "data": {"user": "benyx1", "cmd": "ticket_open:replace", "channel": 1432829783602888775, "ts": "2025-11-02T22:51:51.226241"}}
+{"timestamp": "2025-11-02T22:52:14.203792", "data": {"user": "benyx1", "cmd": "ticket_close", "channel": 1434676368469266472, "ts": "2025-11-02T22:52:14.203459"}}
+{"timestamp": "2025-11-02T22:52:22.504574", "data": {"user": "benyx1", "cmd": "ticket_close", "channel": 1434676368469266472, "ts": "2025-11-02T22:52:22.503975"}}
+{"timestamp": "2025-11-02T22:52:30.580103", "data": {"user": "benyx1", "cmd": "ticket_transcript", "channel": 1434676368469266472, "ts": "2025-11-02T22:52:30.579520"}}
+{"timestamp": "2025-11-02T22:52:44.278281", "data": {"user": "benyx1", "cmd": "ticket_close", "channel": 1434676414141042721, "ts": "2025-11-02T22:52:44.277568"}}
+{"timestamp": "2025-11-02T23:33:18.745275", "data": {"user": "benyx1", "cmd": "panel", "channel": 1432829783602888775, "ts": "2025-11-02T23:33:18.744630"}}
+{"timestamp": "2025-11-02T23:33:22.776693", "data": {"user": "benyx1", "cmd": "ticket_open:replace", "channel": 1432829783602888775, "ts": "2025-11-02T23:33:22.776240"}}
+{"timestamp": "2025-11-02T23:33:36.259594", "data": {"user": "benyx1", "cmd": "ticket_assign", "channel": 1434686863293026378, "ts": "2025-11-02T23:33:36.259177"}}
+{"timestamp": "2025-11-02T23:34:41.021037", "data": {"user": "benyx1", "cmd": "backup_create", "ts": "2025-11-02T23:34:41.019928"}}
+{"timestamp": "2025-11-02T23:35:01.288429", "data": {"user": "benyx1", "cmd": "addrole", "ts": "2025-11-02T23:35:01.287955"}}
+{"timestamp": "2025-11-02T23:35:23.528245", "data": {"user": "benyx1", "cmd": "systemstatus", "ts": "2025-11-02T23:35:23.527603"}}
+{"timestamp": "2025-11-02T23:35:53.121544", "data": {"user": "benyx1", "cmd": "stafflist", "ts": "2025-11-02T23:35:53.121158"}}
+{"timestamp": "2025-11-04T21:05:35.936156", "data": {"user": "benyx1", "cmd": "panel", "channel": 1432829783602888775, "ts": "2025-11-04T21:05:35.935457"}}
+{"timestamp": "2025-11-04T21:05:40.799971", "data": {"user": "benyx1", "cmd": "ticket_open:purchases", "channel": 1432829783602888775, "ts": "2025-11-04T21:05:40.799501"}}
+{"timestamp": "2025-11-04T21:06:33.884351", "data": {"user": "benyx1", "cmd": "invoice_status", "ts": "2025-11-04T21:06:33.883537"}}
+{"timestamp": "2025-11-04T21:06:59.118291", "data": {"user": "benyx1", "cmd": "ticket_assign", "channel": 1435374468435279872, "ts": "2025-11-04T21:06:59.117839"}}
+{"timestamp": "2025-11-04T21:07:15.691964", "data": {"user": "benyx1", "cmd": "stock_check", "ts": "2025-11-04T21:07:15.689640"}}
+{"timestamp": "2025-11-04T21:33:19.908821", "data": {"user": "benyx1", "cmd": "ticket_transcript", "channel": 1435374468435279872, "ts": "2025-11-04T21:33:19.907736"}}
+{"timestamp": "2025-11-04T21:46:06.031150", "data": {"user": "benyxjrr", "cmd": "ticket_open:not_received", "channel": 1432829783602888775, "ts": "2025-11-04T21:46:06.030200"}}
+{"timestamp": "2025-11-04T21:46:15.539614", "data": {"user": "benyxjrr", "cmd": "ticket_assign", "channel": 1435384645670666452, "ts": "2025-11-04T21:46:15.539026"}}
+{"timestamp": "2025-11-04T21:47:18.321587", "data": {"user": "benyxjrr", "cmd": "warn", "channel": 1435384645670666452}}
