@@ -1,7 +1,11 @@
 services:
-  - type: worker
-    name: nuvix-tickets
+  - type: web
+    name: nuvix-tickets-web
     env: python
+    plan: free
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python bot.py"
     autoDeploy: true
+    envVars:
+      - key: PORT
+        value: "10000"
