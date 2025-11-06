@@ -5,7 +5,8 @@
 # ✅ Reads ONLY Render environment variables (NOT .env)
 # ✅ Requires: python 3.11+ and all bot folders with bot.py
 # ==========================================================
-
+import sys
+sys.modules['audioop'] = None
 import os
 import subprocess
 import time
@@ -54,3 +55,4 @@ except KeyboardInterrupt:
     for process in processes:
         process.terminate()
     print("✅ All bots stopped cleanly.")
+
