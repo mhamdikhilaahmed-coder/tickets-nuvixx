@@ -1,4 +1,3 @@
-import nuvix_patch
 import os, time, asyncio
 from aiohttp import web
 import discord
