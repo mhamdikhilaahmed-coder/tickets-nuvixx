@@ -4,6 +4,7 @@ import asyncio
 import datetime as dt
 from typing import Optional, Dict, Any, List
 
+import discord_no_audio_patch  # disables audioop requirement
 import discord
 from discord import app_commands
 from discord.ext import commands, tasks
